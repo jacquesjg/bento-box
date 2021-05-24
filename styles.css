@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: 113px 113px 112px;
+  grid-template-rows: 1fr 1fr 2.5fr 1fr;
+  grid-template-areas:
+    "fish-flag fish-flag vase-short"
+    "map map vase-short"
+    "vase-tall quandropus bamboo"
+    "vase-tall";
+}
+
+.bamboo {
+  grid-area: bamboo;
+}
+
+.fish-flag {
+  grid-area: fish-flag;
+}
+
+.map {
+  grid-area: map;
+}
+
+.quandropus {
+  grid-area: quandropus;
+}
+
+.vase-short {
+  grid-area: vase-short;
+}
+
+.vase-tall {
+  grid-area: vase-tall;
+}
